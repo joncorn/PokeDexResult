@@ -9,5 +9,8 @@
 import Foundation
 
 enum PokemonError: LocalizedError {
-    
+    case invalidURL
+    case thrownError(Error)
+    case noData
+    case unableToDecode
 }
